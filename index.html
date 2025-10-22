@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serverless Event Announcer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Serverless Event Announcement Platform</h1>
+    </header>
+
+    <main>
+        <div id="status-message" class="hidden"></div>
+        
+        <section id="subscription-section">
+            <h2>Subscribe for Email Alerts</h2>
+            <form id="subscribe-form">
+                <input type="email" id="subscriber-email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </section>
+
+        <section id="create-event-section">
+            <h2>Announce a New Event</h2>
+            <form id="create-event-form">
+                <input type="text" id="event-title" placeholder="Event Title" required>
+                <input type="date" id="event-date" required>
+                <textarea id="event-description" placeholder="Event Description" rows="3" required></textarea>
+                <button type="submit">Announce Event</button>
+            </form>
+        </section>
+
+        <section id="events-list-section">
+            <h2>Upcoming Events</h2>
+            <div id="events-container">
+                <p id="loading-events">Loading events...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Serverless App</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
