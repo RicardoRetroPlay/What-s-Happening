@@ -6,7 +6,7 @@ const API_BASE_URL = 'https://8yb68v5fef.execute-api.us-west-2.amazonaws.com/v1'
 const SUBSCRIBE_ENDPOINT = `${API_BASE_URL}/subscribe`;
 const CREATE_EVENT_ENDPOINT = `${API_BASE_URL}/create-event`;
 // The events.json file is hosted on your Amplify/S3 bucket
-const EVENTS_DATA_URL = 'events.json'; 
+const EVENTS_DATA_URL = 'https://eventstorage2.s3.us-west-2.amazonaws.com/events.json'; 
 // =========================================================================
 
 const statusMessage = document.getElementById('status-message');
