@@ -2,7 +2,7 @@
 // =========================================================================
 // !!! ACTION REQUIRED: REPLACE THESE PLACEHOLDERS WITH YOUR API GATEWAY URLs
 // =========================================================================
-const API_BASE_URL = 'https://YOUR_API_GATEWAY_ID.execute-api.YOUR_REGION.amazonaws.com/prod';
+const API_BASE_URL = 'https://8yb68v5fef.execute-api.us-west-2.amazonaws.com/v1';
 const SUBSCRIBE_ENDPOINT = `${API_BASE_URL}/subscribe`;
 const CREATE_EVENT_ENDPOINT = `${API_BASE_URL}/create-event`;
 // The events.json file is hosted on your Amplify/S3 bucket
